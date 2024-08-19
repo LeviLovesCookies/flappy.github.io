@@ -1,0 +1,96 @@
+body {
+    background-color: #c9c8c6;
+    font-family: "Snowburst One", system-ui;
+    color: #363843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.contract-address p{
+    display: inline;
+    font-size: 3.5vw;    
+}
+
+@media only screen and (max-width: 600px) {
+  .contract-address p{
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+}
+
+.contract-address img, .logo-title img, .social-icons img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0;
+}
+
+
+h1{
+  font-size: 12vw;
+  color: #fff;
+  margin: 0;
+  
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #57606d;
+}
+
+.logo-title img{
+  width: 386px;
+  border: 12px solid #fff;
+  border-radius: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-title img {
+    max-width: 386px;
+  }
+}
+
+.contract-address{
+  margin: 0 0 20px 0;
+}
+
+.contract-address img{
+  filter: invert(75%);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 0 20px 0;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    filter: invert(25%);
+}
+
+.social-icons img.svgico{
+  filter: invert(75%);
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+ul{
+  list-style-type: none;
+}
+ul li{
+  display: inline;
+  padding: 0;
+}
+ul li img{
+  border: 4px solid #fff;
+  border-radius: 8px;
+}
